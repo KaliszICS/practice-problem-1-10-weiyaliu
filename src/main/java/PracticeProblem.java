@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * Lesson: String Manipulation
  * Author: Weiya Liu
@@ -5,6 +6,8 @@
  * Date Last Modified: Mar 1, 2026
  */
 
+=======
+>>>>>>> 764be54 (fvwada)
 import java.util.Scanner;
 
 
@@ -40,7 +43,11 @@ public class PracticeProblem {
 		System.out.print("Input the word mango: ");
 		String word = input.nextLine();
 
+<<<<<<< HEAD
 		System.out.println(word.equalsIgnoreCase("mango"));
+=======
+		System.out.println(word.contains("mango"));
+>>>>>>> 764be54 (fvwada)
 
 		input.close();
 	}
@@ -50,6 +57,7 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Input a word: ");
+<<<<<<< HEAD
 		String word = input.nextLine();
 
 		System.out.print("Input a letter: ");
@@ -59,6 +67,12 @@ public class PracticeProblem {
 		System.out.println(word.lastIndexOf(letter));
 
 		input.close();
+=======
+		String letter = input.nextLine();
+
+	    System.out.println(letter.substring(0, 9));
+
+>>>>>>> 764be54 (fvwada)
 	}
 
 	public static void q4() {
@@ -128,4 +142,8 @@ public class PracticeProblem {
 	}
 
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 764be54 (fvwada)
