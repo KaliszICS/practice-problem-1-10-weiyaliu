@@ -13,7 +13,7 @@ Output the first index and last index of the letter in the word on seperate line
 4. Ask the user to "Input a sentence: ". Output "Your sentence is _length_ characters long", where length is the amount of characters in their sentence.
 
 5. Ask the user to "Input a sentence: "  Ask the user "Input a word to replace: ".  Ask the user "What word would you like to replace it with: ".
-Replace all instances of the first word provided with the second word provided in the sentence.
+Replace all instances of the first word provided with the second word provided in the sentence. Output the result.
 
 6. Ask the user to "Input a sentence: "
 Output the sentence in all uppercase and all lowercase on seperate lines in that order.  Remove any extra spaces at the beginning or end.
