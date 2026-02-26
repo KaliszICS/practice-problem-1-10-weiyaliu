@@ -318,7 +318,7 @@ public class PracticeProblemTest {
    @Test
    public void testQ7_2() {
       // word="This" -> output "This" then "ence" (second output from separate call?)
-      System.setIn(new ByteArrayInputStream("This\n".getBytes()));
+      System.setIn(new ByteArrayInputStream("This is also a sentence\n".getBytes()));
       ByteArrayOutputStream bos = new ByteArrayOutputStream();
       System.setOut(new PrintStream(bos));
       PracticeProblem.q7();
