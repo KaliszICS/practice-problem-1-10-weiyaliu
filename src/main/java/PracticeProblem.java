@@ -44,10 +44,14 @@ public class PracticeProblem {
 		String word = input.nextLine();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		System.out.println(word.equalsIgnoreCase("mango"));
 =======
 		System.out.println(word.contains("mango"));
 >>>>>>> 764be54 (fvwada)
+=======
+		System.out.println(word.equalsIgnoreCase("mango"));
+>>>>>>> de38b9a (nn)
 
 		input.close();
 	}
@@ -70,9 +74,13 @@ public class PracticeProblem {
 =======
 		String letter = input.nextLine();
 
-	    System.out.println(letter.substring(0, 9));
+		System.out.println(letter.substring(0));
 
+<<<<<<< HEAD
 >>>>>>> 764be54 (fvwada)
+=======
+		input.close();
+>>>>>>> de38b9a (nn)
 	}
 
 	public static void q4() {
@@ -132,7 +140,10 @@ public class PracticeProblem {
 		String word = input.nextLine();
 
 		System.out.println(word.substring(0, 4));
+<<<<<<< HEAD
 		System.out.println(word.substring(word.length()-4));
+=======
+>>>>>>> de38b9a (nn)
 
 		input.close();
 	}
