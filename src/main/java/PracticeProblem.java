@@ -62,6 +62,7 @@ public class PracticeProblem {
 
 		System.out.print("Input a word: ");
 <<<<<<< HEAD
+<<<<<<< HEAD
 		String word = input.nextLine();
 
 		System.out.print("Input a letter: ");
@@ -72,9 +73,15 @@ public class PracticeProblem {
 
 		input.close();
 =======
+=======
+		String word = input.nextLine();
+
+		System.out.print("Input a letter: ");
+>>>>>>> 9d617df (doneodnoen)
 		String letter = input.nextLine();
 
-		System.out.println(letter.substring(0));
+		System.out.println(word.indexOf(letter));
+		System.out.println(word.lastIndexOf(letter));
 
 <<<<<<< HEAD
 >>>>>>> 764be54 (fvwada)
@@ -141,9 +148,13 @@ public class PracticeProblem {
 
 		System.out.println(word.substring(0, 4));
 <<<<<<< HEAD
+<<<<<<< HEAD
 		System.out.println(word.substring(word.length()-4));
 =======
 >>>>>>> de38b9a (nn)
+=======
+		System.out.println(word.substring(word.length()-4));
+>>>>>>> 9d617df (doneodnoen)
 
 		input.close();
 	}
