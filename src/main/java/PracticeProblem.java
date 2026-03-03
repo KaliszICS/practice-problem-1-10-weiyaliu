@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * Lesson: String Manipulation
  * Author: Weiya Liu
@@ -6,8 +5,6 @@
  * Date Last Modified: Mar 1, 2026
  */
 
-=======
->>>>>>> 764be54 (fvwada)
 import java.util.Scanner;
 
 
@@ -43,15 +40,7 @@ public class PracticeProblem {
 		System.out.print("Input the word mango: ");
 		String word = input.nextLine();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 		System.out.println(word.equalsIgnoreCase("mango"));
-=======
-		System.out.println(word.contains("mango"));
->>>>>>> 764be54 (fvwada)
-=======
-		System.out.println(word.equalsIgnoreCase("mango"));
->>>>>>> de38b9a (nn)
 
 		input.close();
 	}
@@ -61,8 +50,6 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Input a word: ");
-<<<<<<< HEAD
-<<<<<<< HEAD
 		String word = input.nextLine();
 
 		System.out.print("Input a letter: ");
@@ -72,22 +59,6 @@ public class PracticeProblem {
 		System.out.println(word.lastIndexOf(letter));
 
 		input.close();
-=======
-=======
-		String word = input.nextLine();
-
-		System.out.print("Input a letter: ");
->>>>>>> 9d617df (doneodnoen)
-		String letter = input.nextLine();
-
-		System.out.println(word.indexOf(letter));
-		System.out.println(word.lastIndexOf(letter));
-
-<<<<<<< HEAD
->>>>>>> 764be54 (fvwada)
-=======
-		input.close();
->>>>>>> de38b9a (nn)
 	}
 
 	public static void q4() {
@@ -147,14 +118,7 @@ public class PracticeProblem {
 		String word = input.nextLine();
 
 		System.out.println(word.substring(0, 4));
-<<<<<<< HEAD
-<<<<<<< HEAD
 		System.out.println(word.substring(word.length()-4));
-=======
->>>>>>> de38b9a (nn)
-=======
-		System.out.println(word.substring(word.length()-4));
->>>>>>> 9d617df (doneodnoen)
 
 		input.close();
 	}
@@ -164,8 +128,4 @@ public class PracticeProblem {
 	}
 
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 764be54 (fvwada)
